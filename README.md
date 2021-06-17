@@ -11,5 +11,6 @@ GET URL/users/:id -> List user info
 POST URL/users/login -> Login service (email/username auto-detect)
 POST URL/users/register -> Register service
 
-Passwords are salted and hashed before going to MongoDB 
+Passwords are salted and hashed before going to MongoDB.
+A custom middleware is used to inform server manager of incoming requests.
 

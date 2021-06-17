@@ -2,7 +2,7 @@ const express = require('express')
 const usersRouter = require('./routes/users')
 const app = express()
 const mongoose = require('mongoose');
-const mongoDB = "mongodb+srv://admin:admin@heroes.p9t7b.mongodb.net/Database?retryWrites=true&w=majority";
+// const mongoDB = "someMongoDB LINK"; 
 
 
 app.use(express.json())
